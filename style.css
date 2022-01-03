@@ -93,7 +93,7 @@ nav ul {
 /* Section 1 */
 .sec1 {
     min-height: 100vh;
-    background: linear-gradient( rgb(0, 0, 0, 0.4),transparent), url('/images/MOOC-en-Francais-1.jpg');
+    background: linear-gradient( rgb(0, 0, 0, 0.4),transparent), url('/site/images/MOOC-en-Francais-1.jpg');
     background-size: cover;
     background-position: center;
     color: #ffffff;
