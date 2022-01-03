@@ -138,6 +138,7 @@ nav ul {
     }
     .sec2 .content img{
         width: 95%;
+        height: 95%;
     }
     .sec2 .content-top {
         flex-direction: column;
