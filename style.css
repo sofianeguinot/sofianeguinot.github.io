@@ -114,17 +114,25 @@ nav ul {
     margin: 0 auto;
 }
 button {
-    position: relative;
-    padding: 2rem 6rem;
-    border-radius: 50px;
-    border: 2px solid #345467 ;
-    background-color: #345467 ;
-    font-size: 1.8rem;
-    color: #ffffff;
+    width: 200px;
+    height: 55px;
+    border-radius: 8px;
+    border: none;
+    background-color: #345467;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
     cursor: pointer;
-    z-index: -1s;
-    transition: 0.3s;
-    overflow: hidden;
+    margin-top: 30px;
+    outline: none;
+    margin: 0 auto;
+    transition: 0.2s; 
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: rgb(0, 0, 0) 0px 10px 40px -25px ;
 }
 
 @media screen and (max-width: 885px) {
