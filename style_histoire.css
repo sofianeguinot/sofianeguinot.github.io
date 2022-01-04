@@ -183,7 +183,15 @@ tbody tr:nth-child(even) {
 
 @media (max-width: 830px) {
 
-}
+    .table tbody, tr, td {
+        display: block;
+        height: 100%;
+    }
+    .table th {
+        display: block;
+    }
+
+} 
 
 
 /* Footer */
