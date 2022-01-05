@@ -76,7 +76,7 @@ nav {
 
 nav ul {
     display: flex;
-    flex: 1 1 60rem;
+    flex: 1 1 50rem;
     justify-content: space-around;
     align-items: center;
     list-style: none;
@@ -139,6 +139,7 @@ nav ul {
     /*border: 2px solid #253C4A;*/
     border: 1px solid #f3f3f3;
     margin-top: 50px;
+
 }   
 
 .sec3 thead tr {
