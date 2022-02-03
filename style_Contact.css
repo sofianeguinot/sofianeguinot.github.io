@@ -63,7 +63,7 @@ nav {
 
 nav ul {
     display: flex;
-    flex: 1 1 60rem;
+    flex: 1 1 50rem;
     justify-content: space-around;
     align-items: center;
     list-style: none;
@@ -78,9 +78,13 @@ nav ul {
 /* Section Contact */
 
 section#contact {
+    background: linear-gradient( rgb(0, 0, 0, 0.5),transparent), url('/images/network-6511448_1920.jpg');
     padding: 100px 15px;
+    background-size: cover;
+    background-position: center;
     background-color: white;
 }
+
 
 section#contact .container {
     max-width: 900px;
